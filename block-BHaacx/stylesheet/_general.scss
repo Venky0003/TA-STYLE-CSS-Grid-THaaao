@@ -1,0 +1,88 @@
+html {
+    font-size: 16px;
+}
+body {
+    line-height: 1.5;
+    font-family: 'Fira Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    width:1380px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.btn{
+    display:inline-block;
+    text-align: center;
+    padding: .75rem 1.2rem;
+    text-transform: capitalize;
+    cursor:pointer;
+    transition: all 200ms ease-in-out;
+    // background-color: var(--primary);
+}
+.btn-primary {
+    border: 3px solid black;
+    border-radius: 2rem;
+}
+.btn-secondary {
+    width: 40%;
+    background-color: #fff;
+    border-radius: 2.4rem;
+}
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.padding-right {
+    padding-right: 6rem;
+}
+.margin-top {
+    margin-top: 2rem;
+}
+.margin-bottom {
+    margin-bottom: 2rem;
+}
+.white{
+    color:white;
+}
+.yellow {
+    background-color: rgb(234, 160, 22);
+}
+.orange {
+    background-color: rgb(252, 97, 41);
+}
+.black {
+    background-color: black;
+}
+#text-black {
+    color: #000;
+}
+.box {
+    height: 85%;
+}
+.text-address{
+    color:goldenrod;
+    font-size: .9rem;
+    display: block;
+    margin-top: 1rem;
+}
+.active {
+    color:rgb(163, 125, 30)
+}
+#active {
+    color:rgb(163, 125, 30)
+}
+.bars, #toggle{
+    display: none;
+}
